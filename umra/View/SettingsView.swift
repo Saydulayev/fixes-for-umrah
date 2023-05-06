@@ -12,6 +12,8 @@ struct SettingsView: View {
     @State private var showSafariView = false
     @State private var selectedLanguage = "English"
     @State private var showPicker = false
+    @StateObject var settings = UserSettings()
+
     
     let languages = ["Russian", "English", "Deutsch",  "French"]
     
@@ -54,29 +56,9 @@ struct SettingsView: View {
                         Image(systemName: "globe")
                             .foregroundColor(.blue)
                     VStack(alignment: .leading) {
-                        Text("Выбрать язык")
-                            .foregroundColor(.blue)
-                            .onTapGesture {
-                                showPicker.toggle()
-                            }
-
-                        if showPicker {
-                            Picker("Язык", selection: $selectedLanguage) {
-                                ForEach(languages, id: \.self) {
-                                    Text($0)
-                                }
-                            }
-                            .pickerStyle(.wheel)
-                            .frame(height: 150)
-                            .onChange(of: selectedLanguage) { _ in
-                                showPicker.toggle() // close the window when the language is selected
-                            }
-                        }
-
-                        Text("\(selectedLanguage)")
-                            .padding()
+                        LanguageView()
                     }
-
+                    .environmentObject(settings)
                 }
                 
             }
