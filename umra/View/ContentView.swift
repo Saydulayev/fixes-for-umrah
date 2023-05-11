@@ -6,10 +6,13 @@
 //
 
 import SwiftUI
-import WebKit
+
 
 
 struct ContentView: View {
+    @StateObject var settings = UserSettings()
+
+
     var body: some View {
         NavigationView {
             ZStack {
@@ -26,7 +29,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Ихрам")
+                            Text("title_ihram_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                         }
                         
                         VStack {
@@ -37,7 +41,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Обход Каабы")
+                            Text("title_round_kaaba_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                         }
                         
                         VStack {
@@ -48,7 +53,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Место стояние Ибрахима")
+                            Text("title_place_ibrohim_stand_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                         }
                         
                         VStack {
@@ -59,7 +65,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Питье воды Замзам")
+                            Text("title_water_zamzam_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                         }
                         
                         VStack {
@@ -70,7 +77,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Возврат к Черному камню")
+                            Text("title_black_stone_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                         }
                         
                         VStack {
@@ -81,7 +89,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Сафа и Марва")
+                            Text("title_safa_and_marva_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                         }
                         
                         VStack {
@@ -92,7 +101,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Бритье головы")
+                            Text("title_shave_head_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                         }
                         
                         VStack {
@@ -103,7 +113,8 @@ struct ContentView: View {
                                     .aspectRatio(contentMode: .fit)
                                     .imageCustomMidifier()
                             }
-                            CustomText(name: "Ссылка на книгу")
+                            Text("title_link_book_screen", bundle: settings.bundle)
+                                .titleTextMidifier()
                             Divider()
                         }
                     }
@@ -116,7 +127,8 @@ struct ContentView: View {
                                 .foregroundColor(.blue)
                         }
                         )
-                    
+                    LanguageView(settings: settings)
+                        .hidden()
                 }
             }
         }       .accentColor(Color.green)
@@ -155,6 +167,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(UserSettings())
     }
 }

@@ -9,16 +9,38 @@ import SwiftUI
 
 struct LanguageView: View {
     @StateObject var settings = UserSettings()
-
+    @State private var showingActionSheet = false
     var body: some View {
         VStack {
-//            Text("example", bundle: settings.bundle)
-            Picker("Select language", selection: $settings.lang) {
-                Text("Russian").tag("ru")
-                Text("English").tag("en")
-            }
-            .pickerStyle(MenuPickerStyle())
-        }
+            Button(action: {
+                        showingActionSheet = true
+                    }) {
+                        Text("select_language_settings_string", bundle: settings.bundle)
+                            .foregroundColor(.blue)
+                    }
+                    .actionSheet(isPresented: $showingActionSheet) {
+                        ActionSheet(title: Text("Select a Language"), message: nil, buttons: [
+                            .default(Text("Русский")) {
+                                settings.lang = "ru"
+                                UserDefaults.standard.set(settings.lang, forKey: "selectedLanguage")
+                            },
+                            .default(Text("English")) {
+                                settings.lang = "en"
+                                UserDefaults.standard.set(settings.lang, forKey: "selectedLanguage")
+                            },
+                            .default(Text("Deutsch")) {
+                                settings.lang = "de"
+                                UserDefaults.standard.set(settings.lang, forKey: "selectedLanguage")
+                            },
+                            .default(Text("Français")) {
+                                settings.lang = "fr"
+                                UserDefaults.standard.set(settings.lang, forKey: "selectedLanguage")
+                            },
+                            .cancel()
+                        ])
+                    }
+
+        } 
         .onAppear {
             // Load the saved language from UserDefaults
             let savedLang = UserDefaults.standard.string(forKey: "selectedLanguage")
@@ -31,7 +53,6 @@ struct LanguageView: View {
             UserDefaults.standard.set(settings.lang, forKey: "selectedLanguage")
         }
         .environmentObject(settings)
-
     }
 }
 

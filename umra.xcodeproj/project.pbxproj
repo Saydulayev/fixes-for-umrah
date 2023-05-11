@@ -67,6 +67,8 @@
 		C063ADEF29DF2FC600746D2E /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
 		C063ADF029DF2FC600746D2E /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
 		C063ADF129DF2FC700746D2E /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		C06B9C562A08F4A000549748 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C06B9C572A08F4AE00549748 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C08D2D20298BFE400050B216 /* DonationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationButton.swift; sourceTree = "<group>"; };
 		C0908DD829829F8A00458ACB /* umra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = umra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0908DDB29829F8A00458ACB /* umraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = umraApp.swift; sourceTree = "<group>"; };
@@ -239,6 +241,8 @@
 				en,
 				ru,
 				Base,
+				de,
+				fr,
 			);
 			mainGroup = C0908DCF29829F8A00458ACB;
 			productRefGroup = C0908DD929829F8A00458ACB /* Products */;
@@ -312,6 +316,8 @@
 			children = (
 				C0DC35E12A0687DF002527D7 /* ru */,
 				C0DC35E22A068F21002527D7 /* en */,
+				C06B9C562A08F4A000549748 /* de */,
+				C06B9C572A08F4AE00549748 /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

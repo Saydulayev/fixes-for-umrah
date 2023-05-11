@@ -8,37 +8,23 @@
 import SwiftUI
 
 struct Step5: View {
+    @EnvironmentObject var settings: UserSettings
+
     var body: some View {
         ZStack {
             Color(#colorLiteral(red: 0.98108989, green: 0.9316333532, blue: 0.8719255924, alpha: 1))
                 .edgesIgnoringSafeArea(.bottom)
         ScrollView {
                 VStack {
-                    Text("""
-                         
-                        Возврат к Черному камню
-                        """)
+                    Text("Return to the Black Stone.", bundle: settings.bundle)
                     .font(.custom("Lato-Black", size: 26))
                     .foregroundColor(.black)
                     Group {
                         
-                        Text("""
-    
-        Возвратитесь к Чёрному камню,
-        произносите такбир и
-        прикаснитесь к нему так же,
-        как было разъяснено ранее.
-        Или укажите на него
-        рукой и произнесите такбир.
-        Аллах Велик.
-    """)
+                        Text("Return to the Black Stone, recite the Takbir.", bundle: settings.bundle)
                         Spacer()
                         
-                        Text("""
-    
-    Аллаhу Акбар.
-    
-    """)
+                        Text("Allah is great.", bundle: settings.bundle)
                         Text("الله أكبر‎")
                             .customTextforSteps()
                         
@@ -50,6 +36,9 @@ struct Step5: View {
                     .italic()
                     .foregroundColor(.black)
                 } .padding(.horizontal, 10)
+                .environmentObject(settings)
+            LanguageView(settings: settings)
+                .hidden()
             }
         } 
     }

@@ -12,10 +12,11 @@ struct SettingsView: View {
     @State private var showSafariView = false
     @State private var selectedLanguage = "English"
     @State private var showPicker = false
-    @StateObject var settings = UserSettings()
+    @EnvironmentObject var settings: UserSettings
 
-    
-    let languages = ["Russian", "English", "Deutsch",  "French"]
+
+
+
     
     var body: some View {
         NavigationView {
@@ -29,7 +30,7 @@ struct SettingsView: View {
                         }
                     }) {
                         HStack {
-                            Text("Обратная связь")
+                            Text("text_button_feedback_string", bundle: settings.bundle)
                                 .foregroundColor(.blue)
                         }
                     }
@@ -38,34 +39,39 @@ struct SettingsView: View {
                 Section(header: Text("Evaluate the app")) {
                     Image(systemName: "star")
                         .foregroundColor(.yellow)
-                    Button("Оценить приложение") {
+                    Button(action: {
                         showSafariView.toggle()
-                    } .foregroundColor(.blue)
+                    }) {
+                        Text("text_button_rate_the_app_string", bundle: settings.bundle)
+                    }
+                    .foregroundColor(.blue)
                 }
+
                 
                 Section(header: Text("Support the developer")) {
                     Image(systemName: "heart")
                         .foregroundColor(.red)
-                    Button(action: {
-                        
-                    }) {
+                    
                         DonationButton()
-                    }
+//                        .environmentObject(UserSettings())
+
+                    
                 }
                 Section(header: Text("LANGUAGE SELECTION")) {
+                    VStack {
                         Image(systemName: "globe")
                             .foregroundColor(.blue)
-                    VStack(alignment: .leading) {
-                        LanguageView()
+                        
                     }
-                    .environmentObject(settings)
-                }
+                    LanguageView(settings: settings)
+                } 
                 
             }
-            .navigationBarTitle("Настройки", displayMode: .inline)
+            .navigationBarTitle(Text("settings_string", bundle: settings.bundle), displayMode: .inline)
             .sheet(isPresented: $showSafariView) {
                 SafariView(url: URL(string: "https://apps.apple.com/app/id1673683355")!)
             }
+                
         }
     }
 }
@@ -82,8 +88,8 @@ struct SafariView: UIViewControllerRepresentable {
 }
 
 
-struct SettingsView_Previews: PreviewProvider {
-    static var previews: some View {
-        SettingsView()
-    }
-}
+//struct SettingsView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        SettingsView()
+//    }
+//}

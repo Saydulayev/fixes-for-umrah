@@ -8,28 +8,20 @@
 import SwiftUI
 
 struct Step3: View {
+    @EnvironmentObject var settings: UserSettings
+
     var body: some View {
         ZStack {
             Color(#colorLiteral(red: 0.98108989, green: 0.9316333532, blue: 0.8719255924, alpha: 1))
                 .edgesIgnoringSafeArea(.bottom)
         ScrollView {
                 VStack {
-                    Text("""
-
-Намаз после обхода Каабы.
-""")
+                    Text("Prayer after Tawaf of Kaaba.", bundle: settings.bundle)
                     .font(.custom("Lato-Black", size: 26))
                     .foregroundColor(.black)
                     Group {
                         
-                        Text("""
-    
-    Завершив семикратный обход
-    Каабы, мужчина прикрывает
-    правое плечо. Затем направьтесь к месту стояния Ибрахима
-    и произнесите:
-    
-    """)
+                        Text("Having completed seven circuits around the Kaaba", bundle: settings.bundle)
                         
                         Text("""
                         وَاتَّخِذُوا مِن مَّقَامِ إِبْرَاهِيمَ مُصَلًّ
@@ -45,30 +37,17 @@ struct Step3: View {
                     .foregroundColor(.black)
                     
                     Group {
-                        Text("""
-    
-    Ва-ттахизу мим-макъоми Иброhима мусолля
-    
-    «Изберите же место [стояния] Ибрахима местом моления» (сура 2 «Аль-Бакара = Корова», аят 125).
-    
-    При возможности за местом
-    стояния Ибрахима либо же
-    в любом месте Заповедной
-    мечети совершите два рак‘ата
-    намаза. Не забудьте установить перед собой преграду так, чтобы между вами и этой преградой никто не проходил.
-    В первом рак‘ате после суры 1
-    «Аль-Фатиха = Открывающая» прочтите суру 109 «АльКяфирун = Неверующие», а во
-    втором рак‘ате после суры «АльФатиха» прочтите суру 112
-    «Аль-Ихляс = Очищение веры».
-    Завершив намаз, отправьтесь
-    к источнику с водой Замзам.
-    """)
+                        Text("Place of standing of Ibrahim", bundle: settings.bundle)
     
                     }
                     .font(.system(size: 20, weight: .light, design: .serif))
                     .italic()
                     .foregroundColor(.black)
                 } .padding(.horizontal, 10)
+                .environmentObject(settings)
+            LanguageView(settings: settings)
+                .hidden()
+
             }
         } 
     }

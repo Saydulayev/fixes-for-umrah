@@ -55,3 +55,20 @@ extension View {
         self.modifier(CustomTextforSteps())
     }
 }
+
+
+struct TitleTextMidifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.custom("Lato-Black", size: 38))
+            .foregroundColor(Color.init(#colorLiteral(red: 0.5188618898, green: 0.2738361061, blue: 0.2221542895, alpha: 1)))
+            .multilineTextAlignment(.center)
+            .padding(10)
+    }
+}
+
+extension View {
+    func titleTextMidifier() -> some View {
+        self.modifier(TitleTextMidifier())
+    }
+}

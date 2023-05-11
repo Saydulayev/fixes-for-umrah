@@ -8,42 +8,21 @@
 import SwiftUI
 
 struct Step7: View {
+    @EnvironmentObject var settings: UserSettings
+
     var body: some View {
         ZStack {
             Color(#colorLiteral(red: 0.98108989, green: 0.9316333532, blue: 0.8719255924, alpha: 1))
                 .edgesIgnoringSafeArea(.bottom)
         ScrollView {
                 VStack {
-                    Text("""
-                    Бритьё головы
-                    либо укорачивание волос.
-                    """)
+                    Text("Shaving the head string", bundle: settings.bundle)
                     .font(.custom("Lato-Black", size: 26))
                     .foregroundColor(.black)
                     Group {
                         
-                        Text("""
-    
-    Затем мужчина равномерно укорачивает волосы на своей голове
-    либо обривает её, а женщина состригает локон величиной
-    с треть пальца. Примечание.
-    Приехавшим в хадж лучше укоротить волосы, если они не успеют отрасти
-    после ‘умры до хаджа, так как бритьё головы совершается во время хаджа.
-    Приехавшим совершить только ‘умру (без хаджа) лучше обрить голову.
-    
-    
-    
-    Полный выход из состояния ихрама
-    На этом ‘умра заканчивается. Мужчина снимает одеяние
-    ихрам. Ограничения, действовавшие в состоянии ихрама,
-    сняты.
-    
-    
-    """)
-                        Text("""
-                        В заключение я прошу Всевышнего Аллаха принять наши благие дела и сохранить нам награду за их совершение вплоть до того Дня, когда мы с Ним встретимся, «в тот День, когда ни богатство, ни сыновья не принесут пользы никому, кроме тех, которые предстанут перед Аллахом с непорочным сердцем»
-                        (Сура «Поэты», аяты 88-89). Хвала Аллаху, Господу миров!
-                        """)
+                        Text("Men shorten or shave their hair.", bundle: settings.bundle)
+                        Text("Du'a at the end.", bundle: settings.bundle)
                         
                         Text("""
     
@@ -56,6 +35,9 @@ struct Step7: View {
                     .italic()
                     .foregroundColor(.black)
                 } .padding(10)
+                .environmentObject(settings)
+            LanguageView(settings: settings)
+                .hidden()
             }
         } 
     }

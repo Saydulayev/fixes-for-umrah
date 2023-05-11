@@ -1,0 +1,232 @@
+/* 
+  Localizable.strings
+  umra
+
+  Created by Dokx Dig on 04.05.23.
+  
+*/
+
+
+"app_name" = "Umra";
+"main_screen_name_string" = "UMRA";
+"title_black_stone_screen" = "Zurück zum schwarzen Stein";
+"title_ihram_screen" = "Ihram";
+"title_place_ibrohim_stand_screen" = "Der Ort, an dem Prophet Ibrahim gestanden ist";
+"title_round_kaaba_screen" = "Die Kaaba umkreisen";
+"title_safa_and_marva_screen" = "Safa und Marwa";
+"title_settings_screen" = "Einstellungen";
+"title_shave_head_screen" = "Kopf rasieren oder Haare kürzen";
+"title_water_zamzam_screen" = "Trinken des Zamzam-Wassers.";
+"title_link_book_screen" = "Link zum Buch";
+
+
+/* IHRAM */
+"into the state of Ihram" = "
+Treten Sie am bestimmten Ort (Mikat) in den Zustand des Ihram ein.
+";
+"When entering the state of Ihram, say:" = "Wenn Sie in den Zustand des Ihram eintreten, sagen Sie:";
+"Turn your face towards the Qiblah and say:" = "
+Labbayka Allahumma bi-umrah.
+
+Wenden Sie Ihr Gesicht in Richtung Qibla und sagen Sie:";
+"O Allah, this Umrah is without any ostentation or fame" = "Allahumma hazihi 'umrah, la riya'a fiha wa la sum'ah.
+    
+Oh Allah, diese Umra ist ohne jegliche Prahlerei oder Ruhm!
+    
+    
+Dann beginnen Sie laut die Talbiyah auszusprechen:";
+
+"Labbayka Allahumma labbayk" = "Labbayka Allahumma labbayk! Labbayka laa shariika laka labbayka! Innal hamda wanni'mata laka wal mulk, laa shariika lak
+    
+(«Hier bin ich, Oh Allah! Hier bin ich! Hier bin ich und es gibt keinen Partner an deiner Seite! Hier bin ich! Wahrlich, allein dir gehört das Lob, die Gnade und die Herrschaft! Es gibt keinen Partner an deiner Seite!»).
+    
+    
+    
+Nachdem man das heilige Gebiet von Mekka erreicht hat und die Häuser von Mekka sieht, sollte man aufhören, die Takbir auszusprechen.";
+"Entering the Sacred Mosque from the right foot" = "
+    
+    Beim Betreten der Heiligen Moschee mit dem rechten Fuß sagen Sie:
+";
+"entering the Sacred Mosque" = "Allahumma, solli ´ala Muhammadin wa sallim!
+Allahumma - ftah li abwaba rohmati-ka!
+
+    
+Oh Allah, segne Muhammad und schenke ihm Frieden!
+Oh Allah, öffne mir die Tore deiner Barmherzigkeit!";
+"Conditioning for Hajj or Umrah." = "
+
+Bedingungen für die Hajj oder Umrah.
+";
+"If a pilgrim fears that some reason may prevent them from completing the Hajj" = "Wenn ein Pilger befürchtet, dass irgendein Grund ihn daran hindern kann, den Hajj bis zum Ende zu vollenden - sei es Krankheit oder Angst - kann er seinen Hajj vor dem Aussprechen der Tahlbiyah vor dem Allerhöchsten Herrn bedingen, indem er sagt, was der Gesandte gelehrt hat, Friede und Segen Allahs sei auf ihm:
+";
+"Ihram text1" = "«Allahumma mahilli haysu habastani»
+
+«O Allah, mein Eingangsort zur Heiligen Stätte ist dort, wo Du mich aufhältst.».
+
+Diese Hadith ist bestätigt. Siehe auch «Sahih Abi Dawud» (1776).
+
+Deshalb, wenn ein Pilger so handelt und etwas ihn aufhält oder er krank wird, ist es ihm erlaubt, den Zustand des Ihrams zu verlassen, wenn er die Hadsch oder Umra durchführt, und er muss kein Opfertier als Sühne bringen und die Hadsch nicht erneut wiederholen, es sei denn, dies war seine erste verpflichtende Hadsch, die er dann wiederholen müsste.";
+
+
+/* KAABA */
+"Kaaba text1" = "
+Die Kaaba umkreisen";
+"Kaaba text2" = "
+Beginnen Sie mit der siebenfachen Umrundung der Kaaba (Tawaf).
+
+Danach berührt er den Schwarzen Stein mit seiner Hand und küsst ihn.
+
+Wenn es nicht möglich ist, den Schwarzen Stein zu küssen, sollten Sie ihn mit Ihrer Hand berühren.
+
+Wenn es nicht möglich ist, den Schwarzen Stein zu berühren oder zu küssen, dann richten Sie Ihr Gesicht darauf, zeigen Sie mit Ihrer rechten Hand darauf und sagen Sie den Takbir: «Allahu Akbar» (Allah ist der Größte).
+
+(Dies sollte während jeder Runde bei der Umrundung der Kaaba geschehen.)
+";
+"Kaaba text3" = "Beginnen Sie den siebenfachen Umrundung des Kaaba (Tawaf) vom Schwarzen Stein aus. Das Passieren vom Schwarzen Stein zum Schwarzen Stein gilt als eine Runde. Wenn Sie eine neue Runde beginnen, zeigen Sie mit Ihrer rechten Hand auf den Schwarzen Stein und sagen Sie Takbir. Während der gesamten Umrundung des Kaaba, angefangen von ihrem Anfang bis zu ihrem Abschluss, sollten Männer ihre rechte Schulter entblößen. Die ersten drei Runden, vom Schwarzen Stein zum Schwarzen Stein, sollten Männer mit schnellem Schritt gehen, während die verbleibenden vier Runden im normalen Tempo durchgeführt werden. Wenn möglich, berühren Sie während jeder Runde die Jemen-Ecke. Jedes Mal, wenn Sie zwischen der Jemen-Ecke und dem Schwarzen Stein vorbeigehen, sagen Sie:
+";
+"Kaaba text4" = "Rabbana, atina fid-dunya hasanatan wa fil-akhiroti hasanatan wa qina azaba-n-nar
+        
+(«Unser Herr! Gib uns Gutes in dieser Welt
+und Gutes im Jenseits und schütze
+uns vor der Pein des Feuers!
+(Surah Die Kuh, Vers 201).";
+"Prayer after Tawaf of Kaaba." = "Gebet nach der Umkreisung der Kaaba.";
+
+
+/* Namaz after Tawaf around the Kaaba. */
+"Prayer after Tawaf of Kaaba." = "
+Gebet nach der Umkreisung der Kaaba.";
+
+"Having completed seven circuits around the Kaaba" = "
+Nachdem er die siebenfache Umkreisung um die Kaaba abgeschlossen hat, bedeckt der Mann seine rechte Schulter. Dann begibt er sich zum Ort, an dem Ibrahim stand, und sagt:
+";
+
+"Place of standing of Ibrahim" = "Wa-ttahizu mim-maqomi Ibrohima musollya
+    
+«Nehmt Ibrahims Standort als Gebetsplatz!» (Surah Al-Baqarah, Vers 125).
+    
+Wenn möglich, verrichte zwei Rak'at-Gebete an der Stelle von Ibrahim oder an einem beliebigen Ort in der Heiligen Moschee. Vergiss nicht, eine Barriere vor dir aufzustellen, damit niemand zwischen dir und der Barriere hindurchgeht.
+
+In der ersten Rak'ah nach der Rezitation von Surah Al-Fatiha, lies Surah Al-Kafirun (Sure 109). In der zweiten Rak'ah nach der Rezitation von Surah Al-Fatiha, lies Surah Al-Ikhlas (Sure 112).
+
+Nach dem Gebet begebe dich zur Quelle des Zamzam-Wassers.";
+
+/* Drinking Zamzam water. */
+"Drinking Zamzam water." = "
+Trinken des Zamzam-Wassers.";
+"Zamzam text" = "
+    Trinke das Wasser und gieße es dir
+    auf den Kopf.
+    
+Djabir (möge Allah mit ihm zufrieden sein) berichtete: «Der Prophet (Friede und Segen Allahs seien auf ihm) begab sich zum Brunnen von Zamzam, trank daraus und goss sich das Wasser über den Kopf.» Überliefert von Ahmad (3/394) und Ibn Huzayma (4/305). Die Authentizität dieses Hadiths wurde von Az-Zarkashi, Badrud-Din al-'Ayni und Shu'aib al-Arna'ut bestätigt. Siehe 'Umdatul-Qari (9/227), Hashiya 'ala al-Manasik (S. 263) und Tahdhib al-Musnad (15243)
+    
+Nach Jabir (möge Allah mit ihm zufrieden sein) sagte der Gesandte Allahs (Frieden und Segen Allahs seien auf ihm): «Wasser von Zamzam fördert die Erfüllung dessen, wofür es getrunken wird». Ahmad (3/357), Ibn Majah (3062), al-Hakim (1739). Die Authentizität des Hadiths wurde von Sufyan ibn Uyaynah, al-Munziri, ad-Dumyati, Ibn al-Qayyim, az-Zarkashi, Ibn Hajar und al-Albani bestätigt. Siehe «al-Mudhallasa» (509), «al-Matjar ar-Rabih» (982), «Zadul-ma'ad» (4/393), «al-Maqasid al-Hasana» (928), «Faidul-Qadir» (7759), «Sahih at-Targhib» (1165).
+    
+Al-Shawkani sagte: «In diesem Hadith ist der Beweis enthalten, dass das Trinken von Zamzam-Wasser dem Trinker Nutzen bringt, egal mit welcher Absicht er es trinkt, ob es sich um Angelegenheiten in dieser Welt oder im Jenseits handelt. Denn die Worte: «Fördert das Erreichen dessen, wofür es getrunken wird» sind allgemein gehalten.» Siehe «Nail al-Autar» (5/105). Al-Nawawi sagte: «Die Bedeutung dieses Hadiths besteht darin, dass jemand, der dieses Wasser für etwas Bestimmtes trinkt, dies auch erhält. Wahrlich, Gelehrte und Rechtschaffene haben dies ausprobiert, um ihre Bedürfnisse in Bezug auf diese Welt und das Jenseits zu erfüllen, und haben dies durch die Gnade des Allmächtigen Allah erreicht.» Siehe «Tahzib al-Asma' wa-l-Lughaat» (3/139).";
+
+/* Return to the Black Stone. */
+"Return to the Black Stone." = "
+Zurück zum schwarzen Stein.";
+"Return to the Black Stone, recite the Takbir." = "
+Kehrt zum Schwarzen Stein zurück, sagt Takbir und berührt ihn wie zuvor erklärt wurde. Oder zeigt mit der Hand darauf und sagt Takbir. Allah ist groß.";
+"Allah is great." = "
+Allahu Akbar.";
+
+/* Safa and Marwa */
+"Safa and Marwa" = "
+Safa und Marwa";
+"Head towards the hill of Safa" = "
+Gehen Sie zum Hügel von Safa, um die sieben
+Runden zwischen den Hügeln von Safa und Marwa (Sa'y) zu absolvieren.
+Beginnen Sie den Sa'y am Hügel von Safa.
+    
+    
+    Beim Annähern an Safa, liest folgendes:
+";
+"Surah Al-Baqarah, verse 158." =
+"Inna Ssofaa wal-Marwata min sha’aaa’iril laah,
+faman hajjal Baita awi’tamaro falaa junaaha ‘alaihi ayyatt´owwafa bihimaa,
+wa man tat´owwa’a hoyron fa-inna-LLAha Shakirun ´alim.
+    
+«Wahrlich, As Safa und Al-Marwa gehören zu den Kultstätten Allahs; und wer zu dem Hause pilgert oder die `Umra vollzieht, für den ist es kein Vergehen, wenn er zwischen beiden hin- und herschreitet. Und wenn einer freiwillig Gutes tut, so ist Allah Erkenntlich, Allwissend.» (Surah Al-Baqarah, verse 158.)
+    
+    Dann sagen Sie:
+";
+"We begin with that string" =
+"Nabdau bima badaa-Llahu bihi
+«Wir beginnen mit dem, womit Allah begonnen hat.»
+    
+Steigen Sie auf den Hügel von Safa und wenden Sie Ihr Gesicht zur Kaaba.
+Sagen Sie dann:
+";
+"Remembrance of Allah during the Sa'i of Safa and Marwa." =
+"Allahu Akbar! Allahu Akbar! Allahu Akbar!
+La ilaha illa-Llahu wahdahu la sharika lahu. Lahul mulku wa lahul hamdu yuhyi wa yumitu wa huwa 'ala kulli shay'in qodir. La ilaha illa-Llahu wahdahu la sharika lah, anjaza wa'dahu, wa nasaro 'abdahu, wa hazamal ahzaba wahdahu
+
+«Allah ist groß, Allah ist groß, Allah ist groß!
+Es gibt keinen Gott außer Allah, dem Einen, der keinen Partner hat! Ihm gehört die Macht und Ihm gebührt der Lobpreis. Er belebt und tötet, und Er hat die Herrschaft über alles Existierende! Es gibt keinen Gott außer einem einzigen Allah, dem Einen, der keinen Partner hat! Er hat Sein Versprechen erfüllt, Seinem Diener geholfen und allein die feindlichen Stämme besiegt.»
+    
+Sprechen Sie diese Worte drei Mal aus. Zwischen dem ersten und zweiten Mal können Sie die Gebete sprechen, die Sie wünschen. Nach dem dritten Mal wird kein Gebet mehr gesprochen.
+
+Dann steigen Sie vom Hügel Safa hinunter und begeben Sie sich zum Hügel Marwa, um den rituellen Lauf zu beginnen. Eine einzige Strecke vom Safa zum Marwa gilt als eine Runde.
+
+Auf dem Hügel Marwa sollten Sie dasselbe tun wie auf dem Hügel Safa: dem Kaaba zugewandt stehen, Takbirs und das Glaubensbekenntnis sprechen und zu Allah beten. Männer müssen zwischen der ersten und zweiten Markierung, die grün markiert ist, rennen. Der Rest der Strecke wird normal gegangen.
+
+Während des Sa'i-Rituals können Sie zu Allah mit folgendem Gebet sprechen:
+";
+"Du'a during the Sa'i ritual of Safa and Marwa." =
+"Rabbi-ghfir wa rham, innaka anta a´zzul-akram
+    
+«Herr, vergib und erbarme dich, denn Вu bist der Allergrößte und Barmherzigste!», 
+    
+Es ist nichts Schlechtes daran, da dieses Gebet von einer ganzen Gruppe rechtschaffener Vorgänger festgelegt wurde.
+
+Das Gebet beim Verlassen der Heiligen Moschee. Nachdem du die siebte Runde auf dem Hügel von Marwa abgeschlossen hast, verlasse die Heilige Moschee mit dem linken Fuß und sage:
+";
+"Du'a upon exiting the Sacred Mosque." =
+"Allahumma solli 'ala Muhammadin wa sallim!
+Allahumma, inni as'aluka min fadlika!
+    
+Oh Allah, segne Muhammad und schenke ihm Frieden!
+Oh Allah, wahrlich, ich bitte Dich um Deine Gnade!";
+
+/* Shaving of the head or trimming of the hair. */
+"Shaving the head string" = "
+Das Rasieren des Kopfes oder das Kürzen der Haare.";
+"Men shorten or shave their hair." = "
+Dann schneidet der Mann seine Haare auf dem Kopf gleichmäßig ab oder rasiert sie ganz ab, während die Frau eine Haarsträhne abschneidet, die etwa so dick ist wie ein Daumen.
+Anmerkung:
+Es ist besser für diejenigen, die zur Hadsch kommen, ihre Haare zu schneiden, wenn sie nicht genug Zeit haben, um sie zwischen der Umrah und der Hadsch wieder wachsen zu lassen, da das Schneiden der Haare während der Hadsch-Zeremonie erfolgt. Für diejenigen, die nur die Umrah (ohne Hadsch) machen, ist es besser, den Kopf zu rasieren.
+    
+    
+Vollständiges Beenden des Ihram-Zustands.
+Damit ist die Umrah abgeschlossen.
+Der Mann zieht die Ihram-Kleidung aus.
+Die Beschränkungen, die im Ihram-Zustand
+galten, sind aufgehoben.";
+"Du'a at the end." =
+"
+
+Abschließend bitte ich den Allmächtigen Allah, unsere guten Taten anzunehmen und uns für deren Ausführung bis zum Tag unserer Begegnung mit Ihm zu belohnen, an dem weder Reichtum noch Kinder jemandem Nutzen bringen werden außer denen, die mit reinem Herzen vor Allah treten werden
+(Der Vers «Die Dichter» 88-89) «Lob sei Allah, dem Herrn der Welten!";
+
+
+
+//<!--  Resources for the LinkBook screen  -->
+
+//<!--  Resources for the Settings screen  -->
+
+
+    "feedback_settings_screen_string" = "FEEDBACK";
+    "text_button_feedback_string" = "Feedback";
+    "evaluate_the_app_string" = "EVALUATE THE APP";
+    "text_button_rate_the_app_string" = "Bewerte die App";
+    "support_the_developer_string" = "SUPPORT THE DEVELOPER";
+    "text_button_support_string" = "Entwickler unterstützen";
+    "select_language_settings_string" = "Sprache auswählen";
+    "settings_string" = "Einstellungen";
+//    <string name="select_language_string">Выберите язык</string>
+//    <string name="russian_string">Русский</string>
+//    <string name="english_string">Английский</string>
+//    <string name="deutsche_string">Немецкий</string>
+//    <string name="french_string">Французский</string>

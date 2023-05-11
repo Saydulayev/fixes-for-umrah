@@ -9,18 +9,22 @@ import SwiftUI
 
 
 struct Step1: View {
+    @EnvironmentObject var settings: UserSettings
+
+
     var body: some View {
         ZStack {
             Color(#colorLiteral(red: 0.98108989, green: 0.9316333532, blue: 0.8719255924, alpha: 1))
                 .edgesIgnoringSafeArea(.bottom)
         ScrollView {
                 VStack {
-                    Text("into the state of Ihram")
+                    Text("into the state of Ihram", bundle: settings.bundle)
+                    
                     .font(.custom("Lato-Black", size: 26))
                     .foregroundColor(.black)
                     Group {
                         
-                      Text("When entering the state of Ihram, say:")
+                      Text("When entering the state of Ihram, say:", bundle: settings.bundle)
                         
                         
                         Text("""
@@ -31,7 +35,7 @@ struct Step1: View {
                         PlayerView(fileName: "1")
                             .padding()
                         
-                        Text("Turn your face towards the Qiblah and say:")
+                        Text("Turn your face towards the Qiblah and say:", bundle: settings.bundle)
                         
                         
                         Text("""
@@ -43,7 +47,7 @@ struct Step1: View {
                         PlayerView(fileName: "2")
                             .padding()
                         
-                        Text("O Allah, this Umrah is without any ostentation or fame")
+                        Text("O Allah, this Umrah is without any ostentation or fame", bundle: settings.bundle)
                         
                     }
                     .font(.system(size: 20, weight: .light, design: .serif))
@@ -61,10 +65,10 @@ struct Step1: View {
                         PlayerView(fileName: "3")
                             .padding()
                         
-                        Text("Labbayka Allahumma labbayk")
+                        Text("Labbayka Allahumma labbayk", bundle: settings.bundle)
                         
                         
-                        Text("Entering the Sacred Mosque from the right foot")
+                        Text("Entering the Sacred Mosque from the right foot", bundle: settings.bundle)
                         Group {
                             Text("""
     اَللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَ سَلِّمْ،اَللَّهُمَّ افْتَحْ لِي اَبْوَابَ رَحْمَتِكَ
@@ -77,12 +81,12 @@ struct Step1: View {
                             
                             
                             
-                            Text("entering the Sacred Mosque")
-                            Text("Conditioning for Hajj or Umrah.")
+                            Text("entering the Sacred Mosque", bundle: settings.bundle)
+                            Text("Conditioning for Hajj or Umrah.", bundle: settings.bundle)
                                 .font(.custom("Lato-Black", size: 26))
                                 .foregroundColor(.black)
                             
-                            Text("If a pilgrim fears that some reason may prevent them from completing the Hajj")
+                            Text("If a pilgrim fears that some reason may prevent them from completing the Hajj", bundle: settings.bundle)
                             Text("""
                          اَللَّهُمَّ مَحِلِّي حَيْثُ حَبَسْتَنِي
                          """)
@@ -92,13 +96,16 @@ struct Step1: View {
                                 .padding()
                         }
 
-                        Text("Ihram text1")
+                        Text("Ihram text1", bundle: settings.bundle)
                         
                     }
                     .font(.system(size: 20, weight: .light, design: .serif))
                     .italic()
                     .foregroundColor(.black)
                 } .padding(.horizontal, 10)
+                .environmentObject(settings)
+            LanguageView(settings: settings)
+                .hidden()
             }
         }
     }

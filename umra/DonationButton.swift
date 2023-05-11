@@ -31,21 +31,20 @@ struct CloseButton: View {
 struct DonationButton: View {
     
     @State private var showDestinationView = false
+    @EnvironmentObject var settings: UserSettings
+
+
+
+
     
     var body: some View {
-        VStack {
-            
-            
+        ZStack {
             VStack {
                 Button(action: {
                     self.showDestinationView.toggle()
                 }) {
-                    VStack {
-                        VStack {
-                            Text("Поддержать разработчика")
-                                .foregroundColor(.blue)
-                        }
-                    }
+                    Text("text_button_support_string", bundle: settings.bundle)
+                        .foregroundColor(.blue)
                 }
                
                     
@@ -56,15 +55,17 @@ struct DonationButton: View {
             .sheet(isPresented: $showDestinationView) {
                 CloseButton(showDestinationView: $showDestinationView)
             }
+            LanguageView(settings: settings)
+                .hidden()
         }
     }
 }
 
 
 
-struct DonationButton_Previews: PreviewProvider {
-    static var previews: some View {
-        DonationButton()
-    }
-}
+//struct DonationButton_Previews: PreviewProvider {
+//    static var previews: some View {
+//        DonationButton().environmentObject(UserSettings())
+//    }
+//}
 
