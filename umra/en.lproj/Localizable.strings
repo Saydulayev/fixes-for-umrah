@@ -30,11 +30,9 @@ Labbayka Allahumma bi-umrah.
 
 Turn your face towards the Qibla and say:
 ";
-"O Allah, this Umrah is without any ostentation or fame" = "Allahumma hazihi 'umrah,
-la riya'a fiha wa la sum'ah.
+"O Allah, this Umrah is without any ostentation or fame" = "Allahumma hazihi 'umrah, la riya'a fiha wa la sum'ah.
     
-O Allah, this Umrah - there
-is no showing off or seeking fame in it!
+O Allah, this Umrah - there is no showing off or seeking fame in it!
     
     
 Then begin loudly reciting the Talbiyah:";
@@ -48,7 +46,8 @@ Upon reaching the sacred territory of Mecca and seeing the houses of Mecca, one 
 "Entering the Sacred Mosque from the right foot" = "
     
 Upon entering the Sacred Mosque
-with the right foot, say:";
+with the right foot, say:
+";
 "entering the Sacred Mosque" = "Allahumma, solli ´ala Muhammadin wa sallim!
 Allahumma - ftah li abwaba rohmati-ka!
     
@@ -57,7 +56,8 @@ O Allah, open for me the gates of Your mercy!";
 "Conditioning for Hajj or Umrah." = "
 Conditions for performing Hajj or Umrah.
 ";
-"If a pilgrim fears that some reason may prevent them from completing the Hajj" = "If a pilgrim is afraid that something might prevent them from completing the Hajj, such as illness or fear, then before reciting the Talbiyah, they may condition their intention for Hajj before the Almighty Lord by saying what the Prophet, peace and blessings be upon him, taught them:";
+"If a pilgrim fears that some reason may prevent them from completing the Hajj" = "If a pilgrim is afraid that something might prevent them from completing the Hajj, such as illness or fear, then before reciting the Talbiyah, they may condition their intention for Hajj before the Almighty Lord by saying what the Prophet, peace and blessings be upon him, taught them:
+";
 "Ihram text1" = "«Allahumma mahilli haysu habastani»
 
 «O Allah, my place of entering into Ihram is wherever You have detained me».
@@ -70,7 +70,8 @@ Therefore, if a pilgrim acts in this way and is prevented by something or falls 
 /* KAABA */
 "Kaaba text1" = "
 Circumambulation (Tawaf) around the Kaaba.";
-"Kaaba text2" = "Begin the sevenfold circumambulation (Tawaf) around the Kaaba
+"Kaaba text2" = "
+Begin the sevenfold circumambulation (Tawaf) around the Kaaba
         
 After that, the pilgrim touches the
 Black Stone with their hand and kisses it.
@@ -79,95 +80,118 @@ If it's not possible to kiss the
 Black Stone, one should touch it with their hand.
         
         
-If it is not possible to touch and kiss the Black Stone, then face it, point to it with your right hand and say «Allahu Akbar»  (Allah is Great). (All of this should be done during each round of circumambulation around the Kaaba.)";
-"Kaaba text3" = "Begin the sevenfold circumambulation (tawaf) of the Kaaba from the Black Stone. Completing a circuit from the Black Stone to the Black Stone is counted as one circuit. At the start of each new circuit, point with your right hand to the Black Stone and say the takbir. From the beginning of this tawaf until its completion, men should bare their right shoulder. For the first three circuits from the Black Stone to the Black Stone, men should walk quickly, and for the remaining four, they should walk at a normal pace. If possible, touch the Yemeni corner during each circuit. Every time you pass between the Yemeni corner and the Black Stone, say:";
+If it is not possible to touch and kiss the Black Stone, then face it, point to it with your right hand and say «Allahu Akbar»  (Allah is Great). (All of this should be done during each round of circumambulation around the Kaaba.)
+";
+"Kaaba text3" = "Begin the sevenfold circumambulation (tawaf) of the Kaaba from the Black Stone. Completing a circuit from the Black Stone to the Black Stone is counted as one circuit. At the start of each new circuit, point with your right hand to the Black Stone and say the takbir. From the beginning of this tawaf until its completion, men should bare their right shoulder. For the first three circuits from the Black Stone to the Black Stone, men should walk quickly, and for the remaining four, they should walk at a normal pace. If possible, touch the Yemeni corner during each circuit. Every time you pass between the Yemeni corner and the Black Stone, say:
+";
 "Kaaba text4" = "Rabbana, atina fid-dunya hasanatan wa fil-akhiroti hasanatan wa qina azaba-n-nar
         
-        («Our Lord, grant us the good of this world and the good of the Hereafter, and protect us from the torment of the Fire!», Surah Al-Baqarah, verse 201).";
+(«Our Lord, grant us the good of this world and the good of the Hereafter, and protect us from the torment of the Fire!», Surah Al-Baqarah, verse 201).";
 "Prayer after Tawaf of Kaaba." = "Prayer after circumambulating(tawaf) the Kaaba";
 
 
 /* Namaz after Tawaf around the Kaaba. */
-"Prayer after Tawaf of Kaaba." = "Prayer after completing Tawaf around the Kaaba";
+"Prayer after Tawaf of Kaaba." = "
+Prayer after completing Tawaf around the Kaaba";
 
-"Having completed the seven rounds around the Kaaba, the man covers his right shoulder. Then head towards the place of Ibrahim's standing and say:";
+"Having completed seven circuits around the Kaaba" = "
+Having completed the seven rounds around the Kaaba, the man covers his right shoulder. Then head towards the place of Ibrahim's standing and say:
+";
 
-"Place of standing of Ibrahim" = "Wa-ttahizu mim-maqomi Ibrohima musollya
+"Place of standing of Ibrahim" =
+    "Wa-ttahizu mim-maqomi Ibrohima musollya
     
-    «And take, [O believers], from the standing place of Ibrahim a place of prayer» (Surah Al-Baqarah, verse 125).
+«And take, [O believers], from the standing place of Ibrahim a place of prayer» (Surah Al-Baqarah, verse 125).
     
-    If possible, at the Station of Ibrahim or any place in the Sacred Mosque, perform two rak'ahs of prayer. Remember to place a barrier in front of you so that no one passes between you and the barrier.
-    In the first rak'ah after reciting Surah 1 «Al-Fatihah = The Opening», recite Surah 109 «Al-Kafirun = The Disbelievers», and in the second rak'ah after Surah «Al-Fatihah», recite Surah 112 «Al-Ikhlas = The Purity of Faith». After completing the prayer, head to the Zamzam water source.";
+If possible, at the Station of Ibrahim or any place in the Sacred Mosque, perform two rak'ahs of prayer. Remember to place a barrier in front of you so that no one passes between you and the barrier.
+In the first rak'ah after reciting Surah 1 «Al-Fatihah = The Opening», recite Surah 109 «Al-Kafirun = The Disbelievers», and in the second rak'ah after Surah «Al-Fatihah», recite Surah 112 «Al-Ikhlas = The Purity of Faith». After completing the prayer, head to the Zamzam water source.";
 
 /* Drinking Zamzam water. */
-"Drinking Zamzam water." = "Drinking Zamzam water.";
-"Zamzam text" = "Drink water and pour it over your head.
+"Drinking Zamzam water." = "
+Drinking Zamzam water.";
+"Zamzam text" = "
+    Drink water and pour it over your head.
     
-    Jabir (may Allah be pleased with him) narrated: «The Prophet (peace be upon him) went to the well of Zamzam, drank from it and poured it over his head.» This hadith is authentic, and it is reported in Ahmad (3/394), Ibn Khuzaymah (4/305). The authenticity of the hadith is confirmed by az-Zarkashi, Badr al-Din al-Ayni, and Shu'ayb al-Arnaut. See «Umdat al-Qari» (9/227), «Hashiya 'ala al-Manasik» (p. 263), «Tahridj al-Musnad» (15243).
+Jabir (may Allah be pleased with him) narrated: «The Prophet (peace be upon him) went to the well of Zamzam, drank from it and poured it over his head.» This hadith is authentic, and it is reported in Ahmad (3/394), Ibn Khuzaymah (4/305). The authenticity of the hadith is confirmed by az-Zarkashi, Badr al-Din al-Ayni, and Shu'ayb al-Arnaut. See «Umdat al-Qari» (9/227), «Hashiya 'ala al-Manasik» (p. 263), «Tahridj al-Musnad» (15243).
     
-    From the words of Jabir (may Allah be pleased with him), it is reported that the Messenger of Allah (peace be upon him) said: «The water of Zamzam helps to achieve what it is drunk for.» This hadith is reported in Ahmad (3/357), Ibn Majah (3062), and Al-Hakim (1739). The authenticity of the hadith has been confirmed by scholars such as Sufyan ibn 'Uyaynah, Al-Munziri, Ad-Dumyati, Ibn Al-Qayyim, Az-Zarkashi, Ibn Hajar, and Al-Albani. See «Al-Mudjalasa» (509), «Al-Matjar Ar-Rabih» (982), «Zadul-Ma'ad» (4/393), «Al-Maqasid Al-Hasanah» (928), «Faidul-Qadir» (7759), and «Sahih At-Targhib» (1165).
+From the words of Jabir (may Allah be pleased with him), it is reported that the Messenger of Allah (peace be upon him) said: «The water of Zamzam helps to achieve what it is drunk for.» This hadith is reported in Ahmad (3/357), Ibn Majah (3062), and Al-Hakim (1739). The authenticity of the hadith has been confirmed by scholars such as Sufyan ibn 'Uyaynah, Al-Munziri, Ad-Dumyati, Ibn Al-Qayyim, Az-Zarkashi, Ibn Hajar, and Al-Albani. See «Al-Mudjalasa» (509), «Al-Matjar Ar-Rabih» (982), «Zadul-Ma'ad» (4/393), «Al-Maqasid Al-Hasanah» (928), «Faidul-Qadir» (7759), and «Sahih At-Targhib» (1165).
     
-    Ash-Shawkani said: «This hadith contains evidence that drinking Zamzam water is beneficial for the drinker, no matter what intention they have, whether it is for the affairs of this world or the Hereafter. The words 'it serves the purpose for which it is drunk' are general in meaning.» See «Nayl al-Awtar» (5/105).
-    An-Nawawi said: «The meaning of this hadith is that whoever drinks this water for a specific purpose, will attain it. Truly, scholars and righteous people have tried this to achieve their needs, whether in this world or the Hereafter, and they have received it by the grace of Almighty Allah.» See «Tahzib al-asma wa al-lughat» (3/139).";
+Ash-Shawkani said: «This hadith contains evidence that drinking Zamzam water is beneficial for the drinker, no matter what intention they have, whether it is for the affairs of this world or the Hereafter. The words 'it serves the purpose for which it is drunk' are general in meaning.» See «Nayl al-Awtar» (5/105).
+An-Nawawi said: «The meaning of this hadith is that whoever drinks this water for a specific purpose, will attain it. Truly, scholars and righteous people have tried this to achieve their needs, whether in this world or the Hereafter, and they have received it by the grace of Almighty Allah.» See «Tahzib al-asma wa al-lughat» (3/139).";
 
 /* Return to the Black Stone. */
-"Return to the Black Stone." = "Return to the Black Stone.";
-"Return to the Black Stone, recite the Takbir." = "Return to the Black Stone, saying takbir, and touch it with your hand as explained earlier, or point to it with your hand and say takbir. Allah is Great.";
-"Allah is great." = "Allahu Akbar.";
+"Return to the Black Stone." = "
+Return to the Black Stone.";
+"Return to the Black Stone, recite the Takbir." = "
+Return to the Black Stone, saying takbir, and touch it with your hand as explained earlier, or point to it with your hand and say takbir. Allah is Great.";
+"Allah is great." = "
+Allahu Akbar.
+";
 
 /* Safa and Marwa */
-"Safa and Marwa" = "Safa and Marwa";
-"Head towards the hill of Safa" = "Go to the hill of Safa to perform the seven rounds of the ritual walk (sa‘y) between the hills of Safa and Marwa. Begin the sa‘y at the hill of Safa.
+"Safa and Marwa" = "
+Safa and Marwa";
+"Head towards the hill of Safa" = "
+Go to the hill of Safa to perform the seven rounds of the ritual walk (sa‘y) between the hills of Safa and Marwa. Begin the sa‘y at the hill of Safa.
     
     
-       As you approach Safa, recite:";
+       As you approach Safa, recite:
+";
    "Surah Al-Baqarah, verse 158." = "Inna Ssofaa wal-Marwata min sha’aaa’iril laah, faman hajjal Baita awi’tamaro falaa junaaha ‘alaihi ayyatt´owwafa bihimaa, wa man tat´owwa’a hoyron fa-inna-LLAha Shakirun ´alim.
        
-       «Indeed, as-Safa and al-Marwah are among the symbols of Allah. So whoever makes Hajj to the House or performs 'umrah - there is no blame upon him for walking between them. And whoever volunteers good - then indeed, Allah is appreciative and Knowing.» (Surah Al-Baqarah, verse 158.
+«Indeed, as-Safa and al-Marwah are among the symbols of Allah. So whoever makes Hajj to the House or performs 'umrah - there is no blame upon him for walking between them. And whoever volunteers good - then indeed, Allah is appreciative and Knowing.» (Surah Al-Baqarah, verse 158.
     
-    Затем скажите:";
+    Then say:
+";
 "We begin with that string" = "Nabdau bima badaa-Llahu bihi
 «We begin with that with which Allah began.»
     
 Ascend to the hill of Safa,
 turn your face towards the Kaaba,
-and say:";
-"Remembrance of Allah during the Sa'i of Safa and Marwa." = "Allahu Akbar! Allahu Akbar! Allahu Akbar!
-    La ilaha illa-Llahu wahdahu la sharika lahu. Lahul mulku wa lahul hamdu yuhyi wa yumitu wa huwa 'ala kulli shay'in qodir. La ilaha illa-Llahu wahdahu la sharika lah, anjaza wa'dahu, wa nasaro 'abdahu, wa hazamal ahzaba wahdahu
-    «Allah is the Greatest, Allah is the Greatest, Allah is the Greatest!
-    
-    There is no deity except Allah, the One without any partners! To Him belongs the power and to Him belongs all praise. He gives life and causes death, and He has power over all things. There is no deity except Allah, the One without any partners! He fulfilled His promise, aided His servant, and alone defeated the hostile tribes.»
-    
-    Say these words three times. Between the first and second time, say the supplications you desire. After the third time, no supplication is pronounced. Then descend from the hill of Safa and head towards the hill of Marwa, beginning the ritual passage. One passage from Safa to Marwa is considered as one complete round.
-
-    On the hill of Marwa, you should repeat the same actions as on the hill of Safa: face the Kaaba, say the takbirs and the testimony of faith, and supplicate to Allah. Upon reaching the first marked point, indicated by a green sign, men are required to jog to the second marked point. The rest of the way is completed at a normal walking pace.
-    
-    During the Sa'i ritual, you can supplicate to Allah
-    with the following prayer
+and say:
 ";
-"Du'a during the Sa'i ritual of Safa and Marwa." = "Rabbi-ghfir wa rham, innaka anta
-    a´zzul-akram
-    
-    «O Lord, forgive and have mercy, for You are the Most Great and Generous!», –
-    
-    There is nothing wrong with this, as this supplication is established by a whole group of righteous predecessors.
+"Remembrance of Allah during the Sa'i of Safa and Marwa." =
+"Allahu Akbar! Allahu Akbar! Allahu Akbar!
+La ilaha illa-Llahu wahdahu la sharika lahu. Lahul mulku wa lahul hamdu yuhyi wa yumitu wa huwa 'ala kulli shay'in qodir. La ilaha illa-Llahu wahdahu la sharika lah, anjaza wa'dahu, wa nasaro 'abdahu, wa hazamal ahzaba wahdahu
 
-    Supplication upon exiting the Sacred Mosque:
-    After completing the seventh circuit at the hill of Marwa,
-    exit the Sacred Mosque with the left foot, saying:";
-"Du'a upon exiting the Sacred Mosque." = "Allahumma solli 'ala Muhammadin wa sallim! Allahumma,
-    inni as'aluka min fadlika!
+«Allah is the Greatest, Allah is the Greatest, Allah is the Greatest!
+There is no deity except Allah, the One without any partners! To Him belongs the power and to Him belongs all praise. He gives life and causes death, and He has power over all things. There is no deity except Allah, the One without any partners! He fulfilled His promise, aided His servant, and alone defeated the hostile tribes.»
     
+Say these words three times. Between the first and second time, say the supplications you desire. After the third time, no supplication is pronounced. Then descend from the hill of Safa and head towards the hill of Marwa, beginning the ritual passage. One passage from Safa to Marwa is considered as one complete round.
 
+On the hill of Marwa, you should repeat the same actions as on the hill of Safa: face the Kaaba, say the takbirs and the testimony of faith, and supplicate to Allah. Upon reaching the first marked point, indicated by a green sign, men are required to jog to the second marked point. The rest of the way is completed at a normal walking pace.
     
-    O Allah, bless Muhammad and grant him peace! O Allah, indeed, I ask You for Your Mercy!";
+During the Sa'i ritual, you can supplicate to Allah with the following prayer
+";
+"Du'a during the Sa'i ritual of Safa and Marwa." =
+    "Rabbi-ghfir wa rham, innaka anta
+a´azzul-akram
+    
+«O Lord, forgive and have mercy, for You are the Most Great and Generous!»,
+    
+There is nothing wrong with this, as this supplication is established
+by a whole group of righteous predecessors.
+
+Prayer upon exiting the Sacred Mosque.
+After completing the seventh circuit on the hill of Marwa, exit the Sacred Mosque with your left foot, saying:
+";
+"Du'a upon exiting the Sacred Mosque." =
+"Allahumma solli 'ala Muhammadin wa sallim! Allahumma, inni as'aluka min fadlika!
+    
+O Allah, bless Muhammad and grant him peace! O Allah, indeed, I ask You for Your Mercy!";
 
 /* Shaving of the head or trimming of the hair. */
-"Shaving the head string" = "Shaving the head or trimming the hair.";
-"Men shorten or shave their hair." = "Then the man evenly trims his hair on his head or shaves it off, while the woman cuts a lock of hair equivalent to the length of a finger joint. Note: It is preferable for those who have arrived for Hajj to trim their hair if they do not have enough time for it to grow back before Hajj, as shaving the head is done during Hajj. For those who have come only to perform Umrah (without Hajj), it is better to shave the head.
+"Shaving the head string" = "
+Shaving the head or trimming the hair.";
+"Men shorten or shave their hair." = "
+Then the man evenly trims his hair on his head or shaves it off, while the woman cuts a lock of hair equivalent to the length of a finger joint.
+
+Note:
+It is preferable for those who have arrived for Hajj to trim their hair if they do not have enough time for it to grow back before Hajj, as shaving the head is done during Hajj. For those who have come only to perform Umrah (without Hajj), it is better to shave the head.
 
 The complete exit from the state of Ihram. With this, the Umrah is completed. The man removes the Ihram attire. The restrictions that were applicable in the state of Ihram are lifted.";
-"Du'a at the end." = "In conclusion, I ask the Most High Allah to accept our good deeds and to preserve for us the reward for their performance until the day when we meet Him, «on the day when wealth and sons will not be of any use to anyone, except for those who come to Allah with a sound heart» (Surah Poets, verses 88-89). Praise be to Allah, the Lord of the worlds!";
+"Du'a at the end." = "
+In conclusion, I ask the Most High Allah to accept our good deeds and to preserve for us the reward for their performance until the day when we meet Him, «on the day when wealth and sons will not be of any use to anyone, except for those who come to Allah with a sound heart» (Surah Poets, verses 88-89). Praise be to Allah, the Lord of the worlds!";
 
 
 
