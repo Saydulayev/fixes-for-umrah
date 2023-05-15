@@ -82,7 +82,6 @@ struct Step6: View {
                     .italic()
                     .foregroundColor(.black)
                 } .padding(.horizontal, 10)
-                .environmentObject(settings)
             LanguageView(settings: settings)
                 .hidden()
             }
