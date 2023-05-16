@@ -10,8 +10,8 @@ import SwiftUI
 
 
 struct ContentView: View {
-    @StateObject var settings = UserSettings()
-
+    
+    @EnvironmentObject var settings: UserSettings
 
     var body: some View {
         NavigationView {
@@ -107,7 +107,7 @@ struct ContentView: View {
                         
                         VStack {
                             Divider()
-                            NavigationLink(destination: PDFView()) {
+                            NavigationLink(destination: PDFViewWrapper()) {
                                 Image("image 9")
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)

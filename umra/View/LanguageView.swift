@@ -2,7 +2,7 @@
 //  LanguageView.swift
 //  umra
 //
-//  Created by Dokx Dig on 06.05.23.
+//  Created by Akhmed on 06.05.23.
 //
 
 import SwiftUI

@@ -29,6 +29,7 @@
 		C063ADFC29DF2FC700746D2E /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C063ADEF29DF2FC600746D2E /* 3.mp3 */; };
 		C063ADFD29DF2FC700746D2E /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C063ADF029DF2FC600746D2E /* 1.mp3 */; };
 		C063ADFE29DF2FC700746D2E /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C063ADF129DF2FC700746D2E /* 8.mp3 */; };
+		C075CB1E2A13857E00D4C842 /* hadj_i_umra.pdf in Resources */ = {isa = PBXBuildFile; fileRef = C075CB1D2A13857E00D4C842 /* hadj_i_umra.pdf */; };
 		C08D2D21298BFE400050B216 /* DonationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08D2D20298BFE400050B216 /* DonationButton.swift */; };
 		C0908DDC29829F8A00458ACB /* umraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0908DDB29829F8A00458ACB /* umraApp.swift */; };
 		C0908DDE29829F8A00458ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0908DDD29829F8A00458ACB /* ContentView.swift */; };
@@ -69,6 +70,7 @@
 		C063ADF129DF2FC700746D2E /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
 		C06B9C562A08F4A000549748 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C06B9C572A08F4AE00549748 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C075CB1D2A13857E00D4C842 /* hadj_i_umra.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = hadj_i_umra.pdf; path = ../../../hadj_i_umra.pdf; sourceTree = "<group>"; };
 		C08D2D20298BFE400050B216 /* DonationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationButton.swift; sourceTree = "<group>"; };
 		C0908DD829829F8A00458ACB /* umra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = umra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0908DDB29829F8A00458ACB /* umraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = umraApp.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 			path = MP3Voice;
 			sourceTree = "<group>";
 		};
+		C075CB1B2A137ED600D4C842 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				C075CB1D2A13857E00D4C842 /* hadj_i_umra.pdf */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
 		C0908DCF29829F8A00458ACB = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +180,7 @@
 				C036BC802997A5190000FD8E /* Font */,
 				C0908DED2982A05B00458ACB /* All Step´s */,
 				C063ADE429DF2ED500746D2E /* MP3Voice */,
+				C075CB1B2A137ED600D4C842 /* PDF */,
 				C0908DDF29829F8A00458ACB /* Assets.xcassets */,
 				C0908DE129829F8A00458ACB /* Preview Content */,
 			);
@@ -267,6 +278,7 @@
 				C025CE992A03E4300052188D /* Localizable.strings in Resources */,
 				C063ADF529DF2FC700746D2E /* 4.mp3 in Resources */,
 				C063ADFA29DF2FC700746D2E /* 13.mp3 in Resources */,
+				C075CB1E2A13857E00D4C842 /* hadj_i_umra.pdf in Resources */,
 				C063ADF429DF2FC700746D2E /* 12.mp3 in Resources */,
 				C036BC892997AD040000FD8E /* Lato-Bold.ttf in Resources */,
 				C063ADF729DF2FC700746D2E /* 7.mp3 in Resources */,

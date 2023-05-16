@@ -10,29 +10,42 @@
 
 
 import SwiftUI
-import WebKit
+import PDFKit
 
-struct PDFView: View {
+struct PDFViewWrapper: View {
     var body: some View {
-        WebView(url: URL(string: "https://static.toislam.ws/files/biblioteka/biblioteka_pdf/05_fiqh/05_hadj/02_hadj_i_umra.pdf")!)
-    }
-}
-
-struct WebView: UIViewRepresentable {
-    let url: URL
-
-    func makeUIView(context: Context) -> WKWebView {
-        return WKWebView()
-    }
-
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        let request = URLRequest(url: url)
-        uiView.load(request)
+        ZStack {
+            Color.white
+                .edgesIgnoringSafeArea(.bottom)
+            
+            VStack {
+                PDFViewRepresented()
+            }
+        }
     }
 }
 
 
 
+
+
+struct PDFViewRepresented: UIViewRepresentable {
+    func makeUIView(context: Context) -> PDFView {
+        let pdfView = PDFView()
+        if let url = Bundle.main.url(forResource: "hadj_i_umra", withExtension: "pdf") {
+            pdfView.document = PDFDocument(url: url)
+        }
+                pdfView.autoScales = true // Adjusts the PDF view's scale to fit the window
+                pdfView.displayMode = .singlePageContinuous // Displays one page at a time
+                pdfView.usePageViewController(true, withViewOptions: nil) // Enables page swiping
+                pdfView.backgroundColor = UIColor.white // Sets the background color to black
+                return pdfView
+    }
+
+    func updateUIView(_ uiView: PDFView, context: Context) {
+        // Update the view if needed
+    }
+}
 
 
 
@@ -52,6 +65,6 @@ struct WebView: UIViewRepresentable {
 
 struct PDFView_Previews: PreviewProvider {
     static var previews: some View {
-        PDFView()
+        PDFViewWrapper()
     }
 }
