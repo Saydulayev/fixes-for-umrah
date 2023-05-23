@@ -1,4 +1,4 @@
-/* 
+/*
   Localizable.strings
   umra
 
@@ -22,7 +22,7 @@
 
 /* IHRAM */
 "into the state of Ihram" = "
-Treten Sie am bestimmten Ort (Mikat) in den Zustand des Ihram ein.
+Treten Sie am Ort des Mikats in den Zustand des Ihrams ein.
 ";
 "When entering the state of Ihram, say:" = "Wenn Sie in den Zustand des Ihram eintreten, sagen Sie:
 ";
@@ -61,7 +61,7 @@ Oh Allah, öffne mir die Tore deiner Barmherzigkeit!";
 
 Bedingungen für die Hajj oder Umrah.
 ";
-"If a pilgrim fears that some reason may prevent them from completing the Hajj" = "Wenn ein Pilger befürchtet, dass irgendein Grund ihn daran hindern kann, den Hajj bis zum Ende zu vollenden - sei es Krankheit oder Angst - kann er seinen Hajj vor dem Aussprechen der Tahlbiyah vor dem Allerhöchsten Herrn bedingen, indem er sagt, was der Gesandte gelehrt hat, Friede und Segen Allahs sei auf ihm:
+"If a pilgrim fears that some reason may prevent them from completing the Hajj" = "Wenn ein Pilger befürchtet, dass irgendein Grund ihn daran hindern kann, den Hajj bis zum Ende zu vollenden - sei es Krankheit oder Angst - kann er vor der Tahlbiyah was der Gesandte gelehrt hat, Friede und Segen Allahs sei auf ihm aussprechen :
 ";
 "Ihram text1" = "«Allahumma mahilli haysu habastani»
 
@@ -78,7 +78,7 @@ Die Kaaba umkreisen";
 "Kaaba text2" = "
 Beginnen Sie mit der siebenfachen Umrundung der Kaaba (Tawaf).
 
-Danach berührt er den Schwarzen Stein mit seiner Hand und küsst ihn.
+Danach berührt der Pilger den Schwarzen Stein mit seiner Hand und küsst ihn.
 
 Wenn es nicht möglich ist, den Schwarzen Stein zu küssen, sollten Sie ihn mit Ihrer Hand berühren.
 
@@ -102,7 +102,7 @@ uns vor der Pein des Feuers!
 Gebet nach der Umkreisung der Kaaba.";
 
 "Having completed seven circuits around the Kaaba" = "
-Nachdem er die siebenfache Umkreisung um die Kaaba abgeschlossen hat, bedeckt der Mann seine rechte Schulter. Dann begibt er sich zum Ort, an dem Ibrahim stand, und sagt:
+Nachdem der Pilger die siebenfache Umkreisung um die Kaaba abgeschlossen hat, bedeckt der Mann seine rechte Schulter. Dann begibt er sich zum Ort, an dem Ibrahim stand, und sagt:
 ";
 
 "Place of standing of Ibrahim" = "Wa-ttahizu mim-maqomi Ibrohima musollya
@@ -130,7 +130,7 @@ Al-Shawkani sagte: «In diesem Hadith ist der Beweis enthalten, dass das Trinken
 
 /* Return to the Black Stone. */
 "Return to the Black Stone." = "
-Zurück zum schwarzen Stein.";
+Kehrt zurück zum schwarzen Stein.";
 "Return to the Black Stone, recite the Takbir." = "
 Kehrt zum Schwarzen Stein zurück, sagt Takbir und berührt ihn wie zuvor erklärt wurde. Oder zeigt mit der Hand darauf und sagt Takbir. Allah ist groß.";
 "Allah is great." = "
@@ -184,7 +184,7 @@ Während des Sa'i-Rituals können Sie zu Allah mit folgendem Gebet sprechen:
 "Rabbi-ghfir wa rham, innaka anta
 a´azzul-akram
     
-«Herr, vergib und erbarme dich, denn Вu bist der Allergrößte und Barmherzigste!», 
+«Herr, vergib und erbarme dich, denn Вu bist der Allergrößte und Barmherzigste!»,
     
 Es ist nichts Schlechtes daran, da dieses Gebet von einer ganzen Gruppe rechtschaffener Vorgänger festgelegt wurde.
 
