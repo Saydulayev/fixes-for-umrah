@@ -215,3 +215,8 @@ In conclusion, I ask the Most High Allah to accept our good deeds and to preserv
 //    <string name="english_string">Английский</string>
 //    <string name="deutsche_string">Немецкий</string>
 //    <string name="french_string">Французский</string>
+
+"add_string" = "Add";
+"reset_string" = "Reset";
+"Sa´y finished_string" = "Sa´y finished";
+"circle_string" = "Walkthrough:";

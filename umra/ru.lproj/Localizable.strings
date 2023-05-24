@@ -280,3 +280,8 @@
 //    <string name="english_string">Английский</string>
 //    <string name="deutsche_string">Немецкий</string>
 //    <string name="french_string">Французский</string>
+
+"add_string" = "Добавить";
+"reset_string" = "Сбросить";
+"Sa´y finished_string" = "Cа´й закончено";
+"circle_string" = "Прохождение:";

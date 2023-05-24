@@ -238,3 +238,8 @@ Abschließend bitte ich den Allmächtigen Allah, unsere guten Taten anzunehmen u
 //    <string name="english_string">Английский</string>
 //    <string name="deutsche_string">Немецкий</string>
 //    <string name="french_string">Французский</string>
+
+"add_string" = "Hinzufügen";
+"reset_string" = "Zurücksetzen";
+"Sa´y finished_string" = "Sa´y ist fertig";
+"circle_string" = "Komplettlösung:";

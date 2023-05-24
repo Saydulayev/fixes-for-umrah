@@ -14,6 +14,7 @@
 		C036BC872997AAFA0000FD8E /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C036BC862997AAFA0000FD8E /* Lato-BlackItalic.ttf */; };
 		C036BC892997AD040000FD8E /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C036BC882997AD040000FD8E /* Lato-Bold.ttf */; };
 		C036BC8B2997AD350000FD8E /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C036BC8A2997AD350000FD8E /* Lato-Black.ttf */; };
+		C04028182A1E3DF900C04678 /* CounterTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04028172A1E3DF900C04678 /* CounterTapView.swift */; };
 		C0514F342998F3C000AA1776 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0514F332998F3C000AA1776 /* PDFView.swift */; };
 		C063ADE329DF2E5B00746D2E /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C063ADE229DF2E5B00746D2E /* PlayerView.swift */; };
 		C063ADF229DF2FC700746D2E /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C063ADE529DF2FC400746D2E /* 5.mp3 */; };
@@ -53,6 +54,7 @@
 		C036BC862997AAFA0000FD8E /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
 		C036BC882997AD040000FD8E /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		C036BC8A2997AD350000FD8E /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		C04028172A1E3DF900C04678 /* CounterTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTapView.swift; sourceTree = "<group>"; };
 		C0514F332998F3C000AA1776 /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
 		C063ADE229DF2E5B00746D2E /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		C063ADE529DF2FC400746D2E /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				C0514F332998F3C000AA1776 /* PDFView.swift */,
 				C008900229E1B09400031176 /* SettingsView.swift */,
 				C0DC35DF2A0686A2002527D7 /* LanguageView.swift */,
+				C04028172A1E3DF900C04678 /* CounterTapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				C008900329E1B09400031176 /* SettingsView.swift in Sources */,
 				C0908DDE29829F8A00458ACB /* ContentView.swift in Sources */,
+				C04028182A1E3DF900C04678 /* CounterTapView.swift in Sources */,
 				C0908DF92982A0B300458ACB /* Step 6.swift in Sources */,
 				C0514F342998F3C000AA1776 /* PDFView.swift in Sources */,
 				C00A1AC22991335B0077D2B7 /* PayPalView.swift in Sources */,
